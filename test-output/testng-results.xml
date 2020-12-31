@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching and matching title isactiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[the element is matching ]]>
+    </line>
+    <line>
+      <![CDATA[buld number is same]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25578" started-at="2020-12-31T08:13:39Z" finished-at="2020-12-31T08:14:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25578" started-at="2020-12-31T08:13:39Z" finished-at="2020-12-31T08:14:04Z">
+      <class name="Com_TimeT_Tests.BuildNumberTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Com_TimeT_Tests.BuildNumberTest@4501b7af]" name="preCondition" is-config="true" duration-ms="16385" started-at="2020-12-31T08:13:39Z" finished-at="2020-12-31T08:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="buildNumberverify()[pri:4, instance:Com_TimeT_Tests.BuildNumberTest@4501b7af]" name="buildNumberverify" duration-ms="9019" started-at="2020-12-31T08:13:55Z" finished-at="2020-12-31T08:14:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching and matching title isactiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[the element is matching ]]>
+            </line>
+            <line>
+              <![CDATA[buld number is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buildNumberverify -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:Com_TimeT_Tests.BuildNumberTest@4501b7af]" name="postCondition" is-config="true" duration-ms="112" started-at="2020-12-31T08:14:04Z" finished-at="2020-12-31T08:14:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buildNumberverify status=SUCCESS method=BuildNumberTest.buildNumberverify()[pri:4, instance:Com_TimeT_Tests.BuildNumberTest@4501b7af] output=Title is matching and matching title isactiTIME - Login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Com_TimeT_Tests.BuildNumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
